@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+void saludo_default() {
+    std::cout << "Hola, mundo desde main.cpp\n";
+}
+
+void saludo_personalizado(const std::string& nombre) {
+    std::cout << "Hola, " << nombre << "! Bienvenido al ejemplo de Git.\n";
+}
+
+int main(int argc, char* argv[]) {
+    if (argc > 1) {
+        saludo_personalizado(argv[1]);
+    } else {
+        saludo_default();
+    }
+    return 0;
+}

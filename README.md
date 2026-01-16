@@ -16,5 +16,5 @@ Instrucciones rápidas:
 3. Seguir los comandos del archivo de instrucciones provisto para crear commits y ramas.
 4. Hacer push de `main` y `dev` al remoto.
 
-Autor: <Jose Damian Ona Garcia>
+Autor: <Jose Damian Garcia>
 Fecha: 2026-01-16
